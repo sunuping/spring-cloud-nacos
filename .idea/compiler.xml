@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="practice-springcloud" />
+        <module name="practice-springcloud-nacos-consuer" />
+        <module name="practice-springcloud-nacos-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="practice-springcloud" target="1.8" />
+      <module name="practice-springcloud-nacos-consuer" target="1.8" />
+      <module name="practice-springcloud-nacos-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="practice-springcloud" options="-parameters" />
+      <module name="practice-springcloud-nacos-consuer" options="-parameters" />
+      <module name="practice-springcloud-nacos-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

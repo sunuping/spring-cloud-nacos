@@ -1,0 +1,18 @@
+server:
+  port: 8763
+  # 注意：下面注释了是因为 消费者可能会因为配置了context-path 而调用请求不到提供者的服务
+ # servlet:
+ #   context-path: /nacos-consuer
+spring:
+  application:
+    name: nacos-consuer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+
+feign.sentinel.enabled: true

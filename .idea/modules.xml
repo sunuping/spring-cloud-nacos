@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/practice-springcloud.iml" filepath="$PROJECT_DIR$/practice-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice-springcloud-nacos-consuer/practice-springcloud-nacos-consuer.iml" filepath="$PROJECT_DIR$/practice-springcloud-nacos-consuer/practice-springcloud-nacos-consuer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice-springcloud-nacos-provider/practice-springcloud-nacos-provider.iml" filepath="$PROJECT_DIR$/practice-springcloud-nacos-provider/practice-springcloud-nacos-provider.iml" />
+    </modules>
+  </component>
+</project>
